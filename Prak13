@@ -1,0 +1,8 @@
+1. data <-- bacalah file txt untuk data ke-i
+2. keywords <-- lakukan Tokenizing, Filtering dan Stemming/Tagging pada data
+3. scores <-- lakukan penghitungan TF dan hilangkan keyword yang mempunyai score TF dibawah 50% dari score tertinggi TF, dan tampilkan
+4. querylist <-- masukkan query “pertumbuhan ekonomi, perkembangan pasar dan pergerakan harga saham” (berkategori “ekonomi”), dan lakukan Tokenizing, Filtering dan Stemming/Tagging pada query
+5. rankdocs <-- lakukan pencarian dari querylist terhadap scores masing-masing data, dan ambil 10 data yang mempunyai total scores tertinggi
+6. label <-- baca file label.csv
+7. recall, precision <-- hitunglah recall dan precision dari rankdocs dimulai dari ranking 1 sampai ranking 10, dengan membandingkan kategori rankdocs pada label terhadap kategori query
+8. Visualisasikan grafik recall dan precision
